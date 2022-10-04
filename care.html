@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+      <link rel="shortcut icon" href="https://img.icons8.com/ios-glyphs/30/000000/cat-back-view.png" type="image/x-icon">
+     
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Уход</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <style>
+      .container1{
+          text-align: center;
+      }
+      .link_unstyled {
+          font-size: 18px;
+      }
+      .section__title1 {
+          padding-bottom: 40px;
+          font-size: 23px;
+      }
+      .iconsss {
+  width: 9%;
+  height: 40%;
+}
+
+
+body {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	overflow-x: hidden;
+}
+
+.tm-section-vospitanie1 { background-image: url(img/image-01.jpg); }
+.tm-section-vospitanie2 { background-image: url(img/image-02.jpg); }
+.tm-section-vospitanie3 { background-image: url(img/image-03.jpg); }
+.tm-section-vospitanie4 { background-image: url(img/image-04.jpg); }
+
+.tm-section-soderzhanie1 { background-image: url(img/image-11.jpg); }
+.tm-section-soderzhanie2 { background-image: url(img/image-12.jpg); }
+.tm-section-soderzhanie3 { background-image: url(img/image-13.jpg); }
+.tm-section-soderzhanie4 { background-image: url(img/image-14.jpg); }
+.tm-section-soderzhanie5 { background-image: url(img/image-15.jpg); }
+
+.tm-section-pitanie1 { background-image: url(img/image-21.jpg); }
+.tm-section-pitanie2 { background-image: url(img/image-22.jpg); }
+.tm-section-pitanie3 { background-image: url(img/image-23.jpg); }
+
+p { 
+	font-weight: 300;
+	line-height: 1.8;
+	margin-bottom: 35px;
+}
+
+.tm-section-title {
+	color: #d4c17f;
+	font-size: 1.8rem;
+	margin-bottom: 40px;	
+}
+
+.tm-bg-black-translucent { background-color: rgba(0, 0, 0, 0.5); }
+
+.tm-content-box {
+	height: 100%;
+	min-height: 640px;
+	max-width: 480px;	
+	padding: 40px;	
+	display: -ms-flexbox;	
+	display: -webkit-flex;	
+	display: flex;   
+	-webkit-flex-direction: column;   
+	    -ms-flex-direction: column;   
+	        flex-direction: column; 
+    -ms-flex-pack: center;    
+        -webkit-justify-content: center;    
+            justify-content: center;
+}
+
+.tm-content-box-right {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.tm-page-content-width {
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 100%;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(78, 78, 78);
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: rgb(58, 57, 57);
+}
+
+  </style>
+  
+  <body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Наверх</button>
+    <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 600) {
+          document.getElementById("myBtn").style.display = "block";
+        } else {
+          document.getElementById("myBtn").style.display = "none";
+        }
+      }
+      
+      function topFunction() {
+        document.body.scrollTop = 600;
+        document.documentElement.scrollTop = 600;
+      }
+      </script>
+
+    <nav id="navbar" class="navbar">
+      <div class="container">
+        <a href="index.html" class="brand">
+          <img src="img/Логотип.png" alt="" class="brand__main" />
+        </a>
+
+        <div id="mobile-menu" class="mobile-wrap">
+          <ul class="navbar__menu">
+            <li>
+              <a href="index.html" class="navbar__menu-link">Главная</a>
+            </li>
+            <li>
+              <a href="porody.html" class="navbar__menu-link">Породы котиков</a>
+            </li>
+            <li>
+              <a href="care.html" class="navbar__menu-link">Уход за котиками</a>
+            </li>
+            <li>
+              <a href="facts.html" class="navbar__menu-link">Факты о котиках</a>
+            </li>
+            <li>
+              <a href="#footer" class="navbar__menu-link">Контакты</a>
+            </li>
+            <li>
+              <a href="registration.html" class="navbar__menu-link">Вход/Регистрация</a>
+            </li>
+          </ul>
+        </div>
+
+        <button id="toggle_menu" class="navbar__toggler" data-easy-toggle="#mobile-menu" data-easy-class="mobile-wrap_show">
+          <i></i>
+          <i></i>
+          <i></i>
+        </button>
+      </div>
+    </nav>
+
+    <header id="welcome" class="header" style="background-image: url(img/header3.jpg)">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="header__content">
+              <h1 class="wow animate__fadeInUp">Уход за котиками</h1>
+
+              <div class="header__mouse-effect">
+                  <img src="img/icons/mouse.svg" class="header__mouse-effect-mouse" alt="" />
+              </div>
+
+              <div class="header__contacts">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+   
+
+    <section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container1">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="section__title1">Этот раздел посвящен особенностям содержания котиков в доме и включает в себя категории:</h3>
+          </div>
+
+            <a href="#vospitanie1" class="link_unstyled">
+                <img class="iconsss" src="https://pro-kotikov.ru/wp-content/themes/adorablecat/img/cat/mouse.svg">
+                Воспитание котят
+            </a>
+
+            <a href="#soderzhanie1" class="link_unstyled">
+                <img class="iconsss" src="https://pro-kotikov.ru/wp-content/themes/adorablecat/img/cat/groom.svg">
+                Содержание котят
+            </a>
+
+            <a href="#pitanie1" class="link_unstyled">
+                <img class="iconsss" src="https://pro-kotikov.ru/wp-content/themes/adorablecat/img/cat/food.svg">
+                Питание котят
+            </a>
+        </div>
+      </div>
+    </section>
+
+    
+
+
+    <!-- Section 1 -->
+    <section class="tm-section tm-section-vospitanie1" id="vospitanie1">
+
+        <div class="tm-page-content-width">
+            <div class="tm-bg-black-translucent tm-content-box tm-content-box-right tm-flex-center">
+                <div class="tm-content-box-inner">
+                    <h2 class="tm-section-title">Как воспитать котенка послушным</h2>
+                    <p>Послушный и вежливый кот — залог сохраненных нервов хозяина.</p>
+                    <p>Чем моложе кот, тем проще его воспитывать: у него еще не сформировались привычки. Лучше всего воспитанию поддаются котята до полугода.</p>
+                    <p>Однако это не значит, что котов старше воспитать невозможно: просто на это придется потратить больше времени.</p>   
+                </div>                        
+            </div>                    
+        </div>
+        
+    </section>
+    
+    <!-- Section 2 -->
+    <section class="tm-section tm-section-vospitanie2" id="vospitanie2">
+
+        <div class="tm-page-content-width">
+            <div class="tm-bg-black-translucent tm-content-box tm-flex-center">
+                <div class="tm-content-box-inner">
+                    <h2 class="tm-section-title">Основы воспитания</h2>
+                    <p>Перед началом воспитания определите правила своего дома. Решите, что разрешено и запрещено делать вашим питомцам.</p>
+                    <p>Нельзя в один день разрешать котенку прыгать по столам и грызть провода, а в другой — ругать его за это и наказывать. Котенок запутается и не поймет, как правильно себя вести.</p>
+                    <p>Наказание вообще следует исключить из воспитательного арсенала.</p>
+                    <p>Для безопасности членов семьи запретите играть с котенком руками и ногами. Руки должны ассоциироваться у кота с лаской и едой, а не с противником.</p>
+                </div>                        
+            </div> 
+        </div>                
+    </section>
+
+    <!-- Section 3 -->
+    <section class="tm-section tm-section-vospitanie3" id="vospitanie3">
+
+        <div class="tm-page-content-width">
+            <div class="tm-bg-black-translucent tm-content-box tm-content-box-right tm-flex-center">
+                <div class="tm-content-box-inner">
+                    <h2 class="tm-section-title">Кошачий этикет</h2>
+                    <p>Взрослый воспитанный кот должен знать, что кушать можно только из миски, ходить в туалет — только в лоток, точить когти — об когтеточку. В природе такие правила этикета не предусмотрены, поэтому хозяину придется поведать о них коту.</p>
+                    <p>Приучите котенка к порядку: поставьте его миски и лоток в определенное место, которое не будет меняться. Также стоит установить время кормления. Так вы предотвратите желание кота своровать вкусняшку со стола.</p>
+                    <p>Лучшее воспитание котенка — это игра. Воздержитесь от ругательств в сторону котенка и шлепков: так малыш будет только бояться и перестанет доверять.</p>
+                </div>                        
+            </div> 
+        </div>                
+    </section>
+
+        <!-- Section 4 -->
+    <section class="tm-section tm-section-vospitanie4" id="vospitanie4">
+
+        <div class="tm-page-content-width">
+            <div class="tm-bg-black-translucent tm-content-box tm-flex-center">
+                <div class="tm-content-box-inner">
+                    <h2 class="tm-section-title">Нежелательное поведение</h2>
+                    <p>Если котенок грызет провода, плинтуса или цветы, он хочет поточить свои зубки и восполнить запас витаминов. Отвлеките питомца игрушкой с запахом.</p>
+                    <p>Котенок ходит по столам и заглядывает в шкафы — проявляет любопытство. Сделайте так, чтобы такое действие ассоциировалось у него неприятным звуком или запахом.</p>
+                    <p>Если котенок ходит в туалет в неположенном месте – малышу не нравится его лоток, он не умеет им пользоваться или он не знает, где он находится.</p>
+                    <p>Котенок точит когти об мебель — не знает, как пользоваться когтеточкой. Научите его.</p>
+                </div>                        
+            </div> 
+        </div>                
+    </section>
+
+
+    
+    <section class="tm-section tm-section-soderzhanie1" id="soderzhanie1">
+        <div class="tm-page-content-width">
+            <div class="tm-bg-black-translucent tm-content-box tm-content-box-right tm-flex-center">
+                <div class="tm-content-box-inner">
+                    <h2 class="tm-section-title">Нужно ли купать кота</h2>
+                    <p>Мытье — это дополнительная гигиена животного, профилактика от паразитов, смягчение и увлажнение кожи, удаление выпавших волос, а также поддержание эстетичного вида вашего кота.</p>
+                    <p>Котят купают не ранее трёхмесячного возраста. Водные процедуры для маленьких котят могут привести к переохлаждению и простыванию малыша. В среднем коту требуется 5-6 помывок в год.</p>
+                    <p>Купание для кошек — серьезный стресс. Регулярно вылизываясь и умываясь, кошки поддерживают шерсть в чистоте. Если шерсть сильно загрязнена или у кота обнаружились паразиты искупать его необходимо.</p>   
+                </div>                        
+            </div>                    
+        </div>
+        
+    </section>
+    
+    
+    <section class="tm-section tm-section-soderzhanie2" id="soderzhanie2">
+
+        <div class="tm-page-content-width">
+            <div class="tm-bg-black-translucent tm-content-box tm-flex-center">
+                <div class="tm-content-box-inner">
+                    <h2 class="tm-section-title">Как подстричь когти кошке</h2>
+                    <p>В дикой природе кошачьи когти беспроблемно стачиваются об деревья и землю. Если кот не желает точить когти об когтеточку нужно знать, как подстричь коту когти.</p>
+                    <p>Убедитесь, что питомец спокоен и не проявляет злобы. Если кошка агрессивна, отложите процесс или попросите кого-нибудь помочь подержать животное.</p>
+                    <p>Возьмите в руку кошачью лапку и аккуратно надавите на подушечку, чтобы высунуть когти.</p>
+                    <p>На свет определите место в когте, где заканчиваются кровеносные сосуды и нервные окончания. Отступите несколько миллиметров и аккуратно отстригите конец когтя.</p>
+                    
+                </div>                        
+            </div> 
+        </div>                
+    </section>
+
+    
+    <section class="tm-section tm-section-soderzhanie3" id="soderzhanie3">
+
+        <div class="tm-page-content-width">
+            <div class="tm-bg-black-translucent tm-content-box tm-content-box-right tm-flex-center">
+                <div class="tm-content-box-inner">
+                    <h2 class="tm-section-title">Как почистить уши кошке</h2>
+                    <p>Как и у людей, у кошек в ушах образуется сера. Это защитный механизм, который защищает барабанную перепонку от пыли и прочей грязи.</p>
+                    <p>Ветеринары рекомендуют чистить кошачьи уши не реже 1-2 раз в месяц. Для пород с нестандартным строением уха и недостаточным количеством шерсти в ушке процедуру проводят чаще.</p>
+                    <p>Выверните ушко, чтобы хорошо видеть очищаемую поверхность. Обмакните ватную палочку в гель или в лекарство, Аккуратно и неглубоко засуньте палочку, вычищая грязь наружу. Внешнюю часть уха очищайте ватным диском.</p>
+                </div>                        
+            </div> 
+        </div>                
+    </section>
+
+       
+    <section class="tm-section tm-section-soderzhanie4" id="soderzhanie4">
+
+        <div class="tm-page-content-width">
+            <div class="tm-bg-black-translucent tm-content-box tm-flex-center">
+                <div class="tm-content-box-inner">
+                    <h2 class="tm-section-title">Как правильно вычесать шерсть у кошки</h2>
+                    <p>Главное правило – регулярность процедуры. Вычесывание кошки проводят минимум 2 раза в неделю в зависимости от типа шерсти.</p>
+                    <p>Необходимо правильно подобрать расчески и щетки, исходя из типа шерсти. Некоторые щетки обладают массажным эффектом и стимулируют приток крови к кожным покровам.</p>
+                    <p> Во время процедуры нужно быть аккуратным, чтобы не травмировать питомца. Мягкой щеткой нужно расчесать питомца против шерсти, по направлению ее роста – нельзя забывать о животе и хвосте. Важно запомнить, что расчесывать можно только сухую шерсть, так как мокрая легче путается.</p>
+                </div>                        
+            </div> 
+        </div>                
+    </section>
+
+    <section class="tm-section tm-section-soderzhanie5" id="soderzhanie5">
+
+      <div class="tm-page-content-width">
+          <div class="tm-bg-black-translucent tm-content-box tm-content-box-right tm-flex-center">
+              <div class="tm-content-box-inner">
+                  <h2 class="tm-section-title">Как ухаживать за глазами кота</h2>
+                  <p>Зрение — важнейшая способность восприятия мира у животных. Важно следить за здоровьем глаз кошки, ведь этот орган чувств очень хрупок и не восстановим.</p>
+                  <p>Чтобы глазки питомца были здоровы и не болели, за ними нужно правильно ухаживать. Котам с плоской мордочкой необходимо регулярно протирать глаза специальным раствором. Раствор также можно заменить холодным крепким чаем или травяным отваром. Жидкость наносят на ватный диск, а затем протирают глазик от внешнего угла к внутреннему.</p>
+              </div>                        
+          </div> 
+      </div>                
+  </section>
+
+
+<section class="tm-section tm-section-pitanie1" id="pitanie1">
+
+    <div class="tm-page-content-width">
+        <div class="tm-bg-black-translucent tm-content-box tm-flex-center">
+            <div class="tm-content-box-inner">
+                <h2 class="tm-section-title">Как кормить кота</h2>
+                <p>Правильное питание кошки — залог здоровья питомца и секрет его долгой жизни.</p>
+                <p>Главное правило кормления кошек — не давать еду со стола. Многие продукты вредны для кошек: со специями, растительным маслом и прочими добавками, не подходящими для вашего любимца.</p>
+                <p>Допускается разнообразить рацион любимца и давать ему каши с отварными овощами и нежирным мясом, вареные яйца, отварную рыбу или нежирные молочные продукты.</p>
+                <p>Чем кормить кошку — ваш выбор, но многие хозяева склонны к приобретению профессиональных кормов.</p>
+                
+            </div>                        
+        </div> 
+    </div>                
+</section>
+
+
+<section class="tm-section tm-section-pitanie2" id="pitanie2">
+
+    <div class="tm-page-content-width">
+        <div class="tm-bg-black-translucent tm-content-box tm-content-box-right tm-flex-center">
+            <div class="tm-content-box-inner">
+                <h2 class="tm-section-title">Режим питания</h2>
+                <p>Чтобы понять, как правильно кормить кота, нужно обратить внимание на его возраст:</p>
+                <p>1. Котят нужно кормить до 5 раз в день, но маленькими порциями. Количество корма рассчитывается из веса котенка:</p>
+                <p>10%*вес котенка=объем суточного рациона</p>
+                <p>2. Кошек от 8 месяцев кормят дважды в день. Для взрослой кошки достаточный объем еды в сутки — 5% от её веса.</p>
+                <p>Нельзя перекармливать питомца, иначе у него возникнет ожирение — а это сильный стресс и для кошки, и для хозяев.</p>
+            </div>                        
+        </div> 
+    </div>                
+</section>
+
+   
+<section class="tm-section tm-section-pitanie3" id="pitanie3">
+
+    <div class="tm-page-content-width">
+        <div class="tm-bg-black-translucent tm-content-box tm-flex-center">
+            <div class="tm-content-box-inner">
+                <h2 class="tm-section-title">Вода</h2>
+                <p>Помимо пищи, питомец должен иметь доступ к чистой воде, поэтому мисочка с водой должна всегда быть полной. Нельзя забывать и о регулярной мойке мисок для еды и воды, чтобы в них не развивалась инфекция.</p>
+            </div>                        
+        </div> 
+    </div>                
+</section>
+
+
+
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <a href="" class="brand">
+              <img src="img/Логотип1.png" alt="" class="brand__main" />
+            </a>
+          </div>
+
+          <div class="col-lg-3">
+            <ul class="footer__menu">
+              <li>
+                <a href="porody.html">Породы котиков</a>
+              </li>
+              <li>
+                <a href="care.html">Уход за котиками</a>
+              </li>
+              <li>
+                <a href="facts.html">Факты о котиках</a>
+              </li>
+              <li>
+                <a href="registration.html">Вход/Регистрация</a>
+              </li>
+              <li>
+                <a href="#region">Контакты</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3">
+            <ul class="footer__contacts">
+              <li>Адрес: ул. Колесникова 3</li>
+              <li>Телефон: <a href="tel:+375445742315">+375 (44) 574-23-15</a></li>
+              <li>Время работы: 10:00 - 20:00</li>
+              <li>E-mail: <a href="lipskayakarina23@gmail.com">lipskayakarina23@gmail.com</a></li>
+            </ul>
+
+            <ul class="footer__social">
+              <li>
+                <a href="#"><i class="icon-youtube"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="icon-vk"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="icon-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="icon-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="libs/wow.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

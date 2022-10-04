@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<head>
+  <link rel="shortcut icon" href="https://img.icons8.com/ios-glyphs/30/000000/cat-back-view.png" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Породы</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	
+</head>
+
+<style>
+    .breed-top {
+    text-align: center;
+}
+.breed-body {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.breed-letter {
+    padding-right: 30px;
+}
+    .breed-alph li {
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+a {
+    color: white;
+}
+
+.breed-letter:after {
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            box-sizing: border-box;
+            width: 100%;
+            height: 2px;
+            background: #e0e0e0;
+            border: solid #242B33;
+            border-width: 0 0.9em 0;
+            margin-right: -100%;
+        }
+	.section {
+  position: relative;
+  padding: 50px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(78, 78, 78);
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: rgb(58, 57, 57);
+}
+
+</style>
+
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Наверх</button>
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+			if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+				document.getElementById("myBtn").style.display = "block";
+			} else {
+				document.getElementById("myBtn").style.display = "none";
+			}
+		}
+		
+		function topFunction() {
+			document.body.scrollTop = 600;
+			document.documentElement.scrollTop = 600;
+		}
+		</script>
+
+	<nav id="navbar" class="navbar">
+		<div class="container">
+			
+			<a href="index.html" class="brand">
+				<img src="img/Логотип.png" alt="" class="brand__main">
+			</a>
+
+			<div id="mobile-menu" class="mobile-wrap">
+				<ul class="navbar__menu">
+					<li>
+              <a href="index.html" class="navbar__menu-link">Главная</a>
+            </li>
+					<li>
+						<a href="porody.html" class="navbar__menu-link">Породы котиков</a>
+					</li>
+					<li>
+						<a href="care.html" class="navbar__menu-link">Уход за котиками</a>
+					</li>
+					<li>
+						<a href="facts.html" class="navbar__menu-link">Факты о котиках</a>
+					</li>
+					<li>
+						<a href="#footer" class="navbar__menu-link">Контакты</a>
+					</li>
+					<li>
+						<a href="registration.html" class="navbar__menu-link">Вход/Регистрация</a>
+					</li>
+				</ul>
+			</div>
+
+			<button id="toggle_menu" class="navbar__toggler" data-easy-toggle="#mobile-menu" data-easy-class="mobile-wrap_show">
+				<i></i>
+				<i></i>
+				<i></i>
+			</button>
+
+		</div>
+	</nav>
+
+	<header id="welcome" class="header" style="background-image: url(img/header1.jpg);">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-8 offset-lg-2">
+					<div class="header__content">
+
+						<h1 class="wow animate__fadeInUp">Породы котиков</h1>
+
+						<div class="header__mouse-effect">
+								<img src="img/icons/mouse.svg" class="header__mouse-effect-mouse" alt="">
+						</div>
+
+						<div class="header__contacts">
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+<div class="breed-top">
+    <ul class="breed-alph"><li><a href="#alf_a">А</a></li><li><a href="#alf_b">Б</a></li><li><a href="#alf_g">Г</a></li><li><a href="#alf_d">Д</a></li><li><a href="#alf_e">Е</a></li><li><a href="#alf_k">К</a></li><li><a href="#alf_l">Л</a></li><li><a href="#alf_m">М</a></li><li><a href="#alf_n">Н</a></li><li><a href="#alf_o">О</a></li><li><a href="#alf_p">П</a></li><li><a href="#alf_r">Р</a></li><li><a href="#alf_s">С</a></li><li><a href="#alf_t">Т</a></li><li><a href="#alf_f">Ф</a></li><li><a href="#alf_x">Х</a></li><li><a href="#alf_ts">Ц</a></li><li><a href="#alf_ch">Ч</a></li><li><a href="#alf_sh">Ш</a></li><li><a href="#alf_ae">Э</a></li><li><a href="#alf_ya">Я</a></li></ul>
+</div>
+    
+	
+    <section id="alf_a" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_a">A</h2>
+<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a href="" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photoa1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Абиссинский</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+								<img src="img/photoa4.png" alt="" class="room__photo" />
+                <h5 class="room__title">Американский кёрл</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photoa3.png" alt="" class="room__photo" />
+                <h5 class="room__title">Американский бобтейл</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photoa2.png" alt="" class="room__photo" />
+                <h5 class="room__title">Американский короткошерстный</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+	
+    <section id="alf_b" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_b">Б</h2>
+				<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a href="" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photob1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Бенгальский</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+								<img src="img/photob2.png" alt="" class="room__photo" />
+                <h5 class="room__title">Бомбейский</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photob3.png" alt="" class="room__photo" />
+                <h5 class="room__title">Британский</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photob4.png" alt="" class="room__photo" />
+                <h5 class="room__title">Бурманский</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+
+
+	<section id="alf_g" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_g">Г</h2>
+				<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photog1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Гавана браун</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+					<img src="img/photog2.png" alt="" class="room__photo" />
+                <h5 class="room__title">Гималайский</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+
+
+    <section id="alf_d" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_d">Д</h2>
+				<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photod1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Девон-рекс</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+								<img src="img/photod2.png" alt="" class="room__photo" />
+                <h5 class="room__title">Донской сфинкс</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+
+    <section id="alf_e" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_e">Е</h2>
+				<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photoe1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Европейский</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+								<img src="img/photoe2.png" alt="" class="room__photo" />
+                <h5 class="room__title">Египетский мау</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+
+    <section id="alf_k" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_k">К</h2>
+				<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photok1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Корат</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+								<img src="img/photok2.png" alt="" class="room__photo" />
+                <h5 class="room__title">Кимрик</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photok3.png" alt="" class="room__photo" />
+                <h5 class="room__title">Курильский бобтейл</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photok4.png" alt="" class="room__photo" />
+                <h5 class="room__title">Корниш-рекс</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+
+    <section id="alf_l" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_l">Л</h2>
+				<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photol1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Лаперм длинношёрстный</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+								<img src="img/photol2.png" alt="" class="room__photo" />
+                <h5 class="room__title">Лаперм короткошёрстный</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+
+    <section id="alf_m" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_m">М</h2>
+				<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photom1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Манчкин</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+								<img src="img/photom2.png" alt="" class="room__photo" />
+                <h5 class="room__title">Мейн-кун</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photom3.png" alt="" class="room__photo" />
+                <h5 class="room__title">Меконгский бобтейл</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photom4.png" alt="" class="room__photo" />
+                <h5 class="room__title">Мэнкс</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+
+    <section id="alf_n" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_n">Н</h2>
+				<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photon1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Наполеон</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+								<img src="img/photon3.png" alt="" class="room__photo" />
+                <h5 class="room__title">Нибелунг</h5>
+								
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photon2.png" alt="" class="room__photo" />
+                <h5 class="room__title">Немецкий рекс</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photon4.png" alt="" class="room__photo" />
+                <h5 class="room__title">Норвежская лесная</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+
+
+	<section id="alf_o" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_o">О</h2>
+				<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photoo1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Орегон-рекс</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+				<img src="img/photoo2.png" alt="" class="room__photo" />
+                <h5 class="room__title">Охос азулес</h5>
+								
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photoo3.png" alt="" class="room__photo" />
+                <h5 class="room__title">Ориентал</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photoo4.png" alt="" class="room__photo" />
+                <h5 class="room__title">Оцикет</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+
+	
+	<section id="alf_p" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_p">П</h2>
+				<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photop1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Персидский</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+					<img src="img/photop2.png" alt="" class="room__photo" />
+                <h5 class="room__title">Пикси-боб</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+
+
+	<section id="alf_r" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_r">Р</h2>
+				<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photor1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Рагамаффин</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="#" class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+					<img src="img/photor2.png" alt="" class="room__photo" />
+                <h5 class="room__title">Рэгдолл</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+
+	<section id="alf_s" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_s">С</h2>
+				<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photos1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Сиамский</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+					<img src="img/photos2.png" alt="" class="room__photo" />
+                <h5 class="room__title">Сибирский</h5>
+              </div>
+            </a>
+          </div>
+
+		  <div class="col-md-6">
+            <a class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photos3.png" alt="" class="room__photo" />
+                <h5 class="room__title">Сингапурский</h5>
+              </div>
+            </a>
+          </div>
+
+		  <div class="col-md-6">
+            <a class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photos44.png" alt="" class="room__photo" />
+                <h5 class="room__title">Сомалийский</h5>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+
+	<section id="alf_t" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_t">Т</h2>
+				<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photot1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Тойгер</h5>
+              </div>
+            </a>
+          </div>
+
+		  <div class="col-md-6">
+            <a class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photot4.png" alt="" class="room__photo" />
+                <h5 class="room__title">Тонкинский</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+					<img src="img/photot2.png" alt="" class="room__photo" />
+                <h5 class="room__title">Турецкая ангора</h5>
+              </div>
+            </a>
+          </div>
+
+		  <div class="col-md-6">
+            <a class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photot3.png" alt="" class="room__photo" />
+                <h5 class="room__title">Турецкий ван</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+
+	<section id="alf_f" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_f">Ф</h2>
+				<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photof1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Форин вайт</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+
+	<section id="alf_x" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_x">Х</h2>
+				<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photox1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Хайленд фолд</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+
+  <section id="alf_ts" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_ts">Ц</h2>
+				<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photoц1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Цейлонский</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+
+  <section id="alf_ch" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_ch">Ч</h2>
+				<section id="our_rooms" class="section pb-0 pt-0">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <a class="link_unstyled">
+              <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+                <img src="img/photoch1.png" alt="" class="room__photo" />
+                <h5 class="room__title">Чаузи</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div>
+	</section>
+
+<section id="alf_sh" class="section">
+		<div class="breed-body">
+		    <h2 class="breed-letter" id="alf_sh">Ш</h2>
+  <section id="our_rooms" class="section pb-0 pt-0">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-6">
+          <a href="" class="link_unstyled">
+            <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+              <img src="img/photosh1.png" alt="" class="room__photo" />
+              <h5 class="room__title">Шантильи-тиффани</h5>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6">
+          <a href="" class="link_unstyled">
+            <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+              <img src="img/photosh2.png" alt="" class="room__photo" />
+              <h5 class="room__title">Шартрез</h5>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6">
+          <a href="" class="link_unstyled">
+            <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+              <img src="img/photosh3.png" alt="" class="room__photo" />
+              <h5 class="room__title">Шотландские вислоухие</h5>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6">
+          <a href="" class="link_unstyled">
+            <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+              <img src="img/photosh4.png" alt="" class="room__photo" />
+              <h5 class="room__title">Шотландские прямоухие</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+      </div>
+</section>
+
+<section id="alf_ae" class="section">
+  <div class="breed-body">
+      <h2 class="breed-letter" id="alf_ae">Э</h2>
+      <section id="our_rooms" class="section pb-0 pt-0">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-6">
+          <a class="link_unstyled">
+            <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+              <img src="img/photoэ1.png" alt="" class="room__photo" />
+              <h5 class="room__title">Экзотический короткошерстный</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+      </div>
+</section>
+
+<section id="alf_ya" class="section">
+  <div class="breed-body">
+      <h2 class="breed-letter" id="alf_ya">Я</h2>
+      <section id="our_rooms" class="section pb-0 pt-0">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-6">
+          <a href="#" class="link_unstyled">
+            <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+              <img src="img/photoуa1.png" alt="" class="room__photo" />
+              <h5 class="room__title">Яванез</h5>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6">
+          <a href="#" class="link_unstyled">
+            <div class="room wow animate__fadeInUp" data-wow-delay=".2s" data-wow-offset="200">
+        <img src="img/photoya2.png" alt="" class="room__photo" />
+              <h5 class="room__title">Японский бобтейл</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+      </div>
+</section>
+	
+	<footer id="footer" class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <a href="" class="brand">
+            <img src="img/Логотип1.png" alt="" class="brand__main" />
+          </a>
+        </div>
+
+        <div class="col-lg-3">
+          <ul class="footer__menu">
+            <li>
+              <a href="porody.html">Породы котиков</a>
+            </li>
+            <li>
+              <a href="care.html">Уход за котиками</a>
+            </li>
+            <li>
+              <a href="facts.html">Факты о котиках</a>
+            </li>
+            <li>
+              <a href="registration.html">Вход/Регистрация</a>
+            </li>
+            <li>
+              <a href="#footer">Контакты</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
+          <ul class="footer__contacts">
+            <li>Адрес: ул. Колесникова 3</li>
+            <li>Телефон: <a href="tel:+375445742315">+375 (44) 574-23-15</a></li>
+            <li>Время работы: 10:00 - 20:00</li>
+            <li>E-mail: <a href="lipskayakarina23@gmail.com">lipskayakarina23@gmail.com</a></li>
+          </ul>
+
+          <ul class="footer__social">
+            <li>
+              <a href="#"><i class="icon-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="icon-vk"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="icon-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="icon-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+	<script src="libs/wow.min.js"></script>
+	<script src="js/main.js"></script>
+	
+</body>
+</html>
